@@ -51,7 +51,7 @@ export const authOptions: NextAuthOptions = {
             ...data?.user,
           },
         };
-        console.log("newSession: ", newSession);
+        // console.log("newSession: ", newSession);
 
         return newSession;
       } catch (error: any) {
